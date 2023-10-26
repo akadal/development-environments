@@ -1,3 +1,4 @@
+/*
 Random num = new Random();
 int a = 0;
 int gen_num = num.Next(60);
@@ -18,3 +19,21 @@ do{
     }
 }
 while(b==false);
+*/
+
+Console.WriteLine("Please your point's coordinates.");
+int x = Int32.Parse(Console.ReadLine());
+int y = Int32.Parse(Console.ReadLine());
+if (x > 0 && y > 0){
+    Console.WriteLine("The point is in the first region.");
+}
+else if (x < 0 && y > 0){
+    Console.WriteLine("The point is in the second region.");
+}
+else if (x < 0 && y < 0){
+    Console.WriteLine("The point is in the third region.");
+}
+else if (x > 0 && y < 0){
+    Console.WriteLine("The point is in the fourth region.");
+}
+Console.ReadKey();
