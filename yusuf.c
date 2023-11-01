@@ -4,4 +4,5 @@
 int	main()
 {
 	write(1,"Merhaba", 7);
+	return 0;
 }
