@@ -20,7 +20,7 @@ do{
 }
 while(b==false);
 */
-
+/*
 Console.WriteLine("Please your point's coordinates.");
 int x = Int32.Parse(Console.ReadLine());
 int y = Int32.Parse(Console.ReadLine());
@@ -35,5 +35,17 @@ else if (x < 0 && y < 0){
 }
 else if (x > 0 && y < 0){
     Console.WriteLine("The point is in the fourth region.");
+}
+Console.ReadKey();
+*/
+Console.WriteLine("Please enter your midterm and final exam scores.");
+int mid = Int32.Parse(Console.ReadLine());
+int final = Int32.Parse(Console.ReadLine());
+double score = mid*0.4 + final*0.6;
+if (score => 50){
+    Console.WriteLine("PASSED !");
+}
+else{
+    Console.WriteLine("FAILED !");
 }
 Console.ReadKey();
