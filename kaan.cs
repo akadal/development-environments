@@ -38,6 +38,7 @@ else if (x > 0 && y < 0){
 }
 Console.ReadKey();
 */
+/*
 Console.WriteLine("Please enter your midterm and final exam scores.");
 int mid = Int32.Parse(Console.ReadLine());
 int final = Int32.Parse(Console.ReadLine());
@@ -48,4 +49,19 @@ if (score => 50){
 else{
     Console.WriteLine("FAILED !");
 }
+Console.ReadKey();
+*/
+Console.WriteLine("Please enter a number");
+int x = Int32.Parse(Console.ReadLine());
+int res = 0;
+if (x > 5){
+    res = (3*x+10);
+}
+else if (x == 5){
+    res = 0
+}
+else{
+    res = ((1/2)^x + 15);
+}
+Console.WriteLine(res);
 Console.ReadKey();
