@@ -51,6 +51,7 @@ else{
 }
 Console.ReadKey();
 */
+/*
 Console.WriteLine("Please enter a number");
 int x = Int32.Parse(Console.ReadLine());
 int res = 0;
@@ -64,4 +65,21 @@ else{
     res = ((1/2)^x + 15);
 }
 Console.WriteLine(res);
+Console.ReadKey();
+*/
+
+Console.WriteLine("Please type a day name.");
+string dayName = Console.ReadLine();
+string dayStatus =""
+switch[dayName]{
+    case "monday":
+    case "tuesday":
+    case "wednesday":
+    case "thursday":
+    case "friday":
+          dayStatus = "weekday"; break;
+    case "saturday":
+    case "sunday":
+                dayStatus = "weekend"; break;
+}
 Console.ReadKey();
