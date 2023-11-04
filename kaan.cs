@@ -67,7 +67,7 @@ else{
 Console.WriteLine(res);
 Console.ReadKey();
 */
-
+/*
 Console.WriteLine("Please type a day name.");
 string dayName = Console.ReadLine();
 string dayStatus =""
@@ -81,5 +81,19 @@ switch[dayName]{
     case "saturday":
     case "sunday":
                 dayStatus = "weekend"; break;
+}
+Console.ReadKey();
+
+*/
+
+Console.WriteLine("Please enter a number");
+int a = Int32.Parse(Console.ReadLine());
+int h = Int32.Parse(Console.ReadLine());
+area_of_triangle = (a*h)/2
+if(area_of_triangle < 0){
+    Console.WriteLine("The area of triangle can't be less than 0, please try a different number.");
+}
+else{
+    Console.WriteLine(area_of_triangle);
 }
 Console.ReadKey();
